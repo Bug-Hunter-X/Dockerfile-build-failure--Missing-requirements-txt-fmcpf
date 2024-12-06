@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: attempting to use a file that isn't present in the build context. The original Dockerfile fails because requirements.txt is referenced but not included. The solution demonstrates how to correctly include the requirements file.
